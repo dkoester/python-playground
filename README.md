@@ -13,3 +13,6 @@ curl -X GET \
 
 #### wait-times 
 This is a Flask based script that runs on local host to check the current wait times and then override anything returned on the currentstatuses API for inflight overrides.
+
+#### msp-watch 
+This is meant to be used as a site monitoring took to hit specific urls at scheduled intervals and publish the data into influxDB to be graphed with grafana locally on the server and rules are created to sent messages to #apollo-en-fuego
