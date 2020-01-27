@@ -10,3 +10,6 @@ curl -X GET \
   -H 'Cache-Control: no-cache' \
   -H 'Postman-Token: 03fccae9-cfb0-c719-dc23-d9139e42afa4'
 ```
+
+#### wait-times 
+This is a Flask based script that runs on local host to check the current wait times and then override anything returned on the currentstatuses API for inflight overrides.
