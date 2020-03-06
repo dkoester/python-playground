@@ -29,7 +29,7 @@ while(True):
     # urls = [("https://api.macnoms.com/api/ft/runways/", "runways")]
     urls = [
     ("https://api.macnoms.com/api/ft/runways/","runways"),
-    ("https://api-qa.mspmac.org/qa1.0/security-checkpoint/currentstatuses/1","security-checkpoint"),
+    ("https://api-qa.mspmac.org/qa1.0/security-checkpoint/waittimedisplays","security-checkpoint"),
     ("https://myinfo.mspairport.com","myinfo"),
     ("https://ecp.macenvironment.org","macenvironment-ecp"),
     #("https://gis.mspmac.org/portal/home/","gis"),
