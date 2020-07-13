@@ -5,7 +5,7 @@ from influxdb import InfluxDBClient
 
 while(True):
     def save_to_influx(json_body):
-        client = InfluxDBClient('localhost', 8086, 'root', 'root', 'prod-parking')
+        client = InfluxDBClient('a', 8086, 'a', 'a', 'a')
         client.write_points(json_body)
         result = client.query('select status from runways;')
         print("Result: {0}".format(result))
