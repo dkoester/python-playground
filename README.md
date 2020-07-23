@@ -1,5 +1,5 @@
 # python-playground
-Store some helpful scripts!
+Store some helpful scripts! Hoping others find this useful!
 
 
 #### pull_all_repos.py
