@@ -3,7 +3,7 @@ Store some helpful scripts! Hoping others find this useful!
 
 
 #### pull_all_repos.py
-This file helps pull all the repos under the mac git org. It requires your oath token to be used. It is limited to 100 repos per request so you might have to change/modify the output to fit your needs. Here is the basic cURL used in the request
+This file helps pull all the repos under the mac git org. It requires your oath token to be used. It is limited to 100 repos per request so you might have to change/modify the output to fit your needs. Here is the basic cURL used in the request. This was originally used to pull all repos when I started at the mac to get a feel for active projects/repos.
 ```
 curl -X GET \
   'https://api.github.com/orgs/mspmac/repos?access_token=token-here&per_page=200&page=3' \
